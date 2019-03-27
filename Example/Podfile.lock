@@ -1,0 +1,16 @@
+PODS:
+  - GMYogaKit (0.1.0)
+
+DEPENDENCIES:
+  - GMYogaKit (from `../`)
+
+EXTERNAL SOURCES:
+  GMYogaKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GMYogaKit: 3ac152af82765952da6df45a4111eb680e012ff3
+
+PODFILE CHECKSUM: beacae74cba2593bd265c77fbe5bcb38b2b4555d
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,6 @@
+framework module GMYogaKit {
+  umbrella header "GMYogaKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
