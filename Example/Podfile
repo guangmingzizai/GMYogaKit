@@ -1,0 +1,6 @@
+use_frameworks!
+target 'GMYogaKit_Tests' do
+  pod 'GMYogaKit', :path => '../'
+  
+  
+end
