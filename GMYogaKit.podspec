@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GMYogaKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A copy of YogaKit.'
 
 # This description is used to generate tags and improve search results.
@@ -32,5 +32,5 @@ Pod::Spec.new do |s|
   s.ios.frameworks = 'UIKit'
 
   s.source_files = 'GMYogaKit/Classes/**/*'
-  s.dependency 'Yoga', '~> 1.9'
+  s.dependency 'Yoga', '1.9.0'
 end
