@@ -24,6 +24,11 @@ static const void *kYGYogaAssociatedKey = &kYGYogaAssociatedKey;
   return yoga;
 }
 
+- (void)clearYoga
+{
+    objc_setAssociatedObject(self, kYGYogaAssociatedKey, nil, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
 - (BOOL)isYogaEnabled
 {
   return objc_getAssociatedObject(self, kYGYogaAssociatedKey) != nil;

@@ -31,6 +31,8 @@ typedef void (^YGLayoutConfigurationBlock)(YGLayout *layout);
 - (void)configureLayoutWithBlock:(YGLayoutConfigurationBlock)block
     NS_SWIFT_NAME(configureLayout(block:));
 
+- (void)clearYoga NS_SWIFT_NAME(clearYoga());
+
 @end
 
 NS_ASSUME_NONNULL_END
